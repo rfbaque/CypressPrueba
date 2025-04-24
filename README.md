@@ -46,7 +46,7 @@ Contiene archivos de pruebas (`specs`) para los flujos automatizados:
 ### **fixtures**
 Almacena datos de prueba reutilizables:
 - **pago.json:** Datos para el flujo de pago de facturas.  
-- **usuario.json:** Datos para registro y autenticación de usuarios.
+- **usuario.json:** Datos para registro y autenticación de usuarios. *(Para cada proceso de registro exitoso, el valor del campo `username` debe ser diferente)*.
 
 ### **utils**
 Incluye funciones reutilizables para la lógica de pruebas:
